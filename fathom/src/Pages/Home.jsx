@@ -1,4 +1,4 @@
-import { Box, Button, Container,Image, Heading,Stack, Link,Text,Grid,GridItem} from "@chakra-ui/react"
+import { Box, Button, Container,Image, Heading,Stack, Link,Text,Grid,GridItem, HStack, ButtonGroup} from "@chakra-ui/react"
 export default function Home(){
     return(
         <Box><Box style={{backgroundImage:"url(https://assets.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg)"}} >
@@ -106,8 +106,10 @@ export default function Home(){
     <Box>
 
     </Box>
-    <Heading  m={"20px"}  size={"2xl"}>Industry news and insights</Heading>
-    <Heading   size={"lg"}>Stay up to date with the latest from the Fathom team</Heading>
+    {/* <Heading  m={"20px"}  size={"2xl"}>Industry news and insights</Heading>
+    <Heading  size={"lg"}>Stay up to date with the latest from the Fathom team</Heading> */}
+<Container maxWidth={"container.xl"}><HStack spacing={450}><Heading>Ready to get started?</Heading><ButtonGroup gap={10}><Button  p={"7"} fontSize={"15px"} style={{borderRadius:"30px"}}>SCHEDULE A CALL</Button><Button  p={"7"} fontSize={"15px"} style={{borderRadius:"30px"}}>REQUEST A QUOTE</Button></ButtonGroup></HStack></Container>
+    
     
     </Box>
         
