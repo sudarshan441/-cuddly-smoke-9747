@@ -1,4 +1,4 @@
-import {Flex,Box,Image,Spacer, Container,ButtonGroup, Button, Stack, Grid} from "@chakra-ui/react"
+import {Flex,Box,Image,Spacer, Container,ButtonGroup, Button, Stack, Grid,Text} from "@chakra-ui/react"
 import {NavLink} from "react-router-dom"
 export default function Footer(){
     return (
@@ -50,7 +50,7 @@ export default function Footer(){
 
             </Stack>
             
-  
+            <Text paddingBottom={"80px"} color={"white"}>© Fathom, Inc. 2022</Text>
         </Box>
     )
 }

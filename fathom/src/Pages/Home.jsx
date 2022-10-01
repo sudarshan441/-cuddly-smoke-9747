@@ -9,7 +9,7 @@ export default function Home(){
         </Container>
      
     </Box><Box bg={"#f3f5fb"} margin={"10px"}><Box p={"15px"} fontSize={"26px"}>Read <Link  href="https://www.nvidia.com/en-us/" color='#9a76d0'>NVIDIA</Link>'s spotlight on Fathom: <Link href="https://blogs.nvidia.com/blog/2019/09/12/fathom-ai-medical-coding/" color='#9a76d0' >The Cure for the Common Code</Link></Box></Box>
-    <Text mt={"100px"}>SERVICES</Text>
+    <Text color={"#6f8093"} mt={"100px"}>SERVICES</Text>
     <Heading  m={"20px"}  size={"2xl"}>Coding services tailored to your workflow</Heading>
     <Container mt={"80px"}  maxWidth={"container.lg"}>
     <Grid  templateColumns='repeat(3, 1fr)' gap={4}>
@@ -18,51 +18,51 @@ export default function Home(){
         <Stack direction={"column"} spacing='24px'>
           <Image  margin={"auto"} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e811cc79d75515e2ecd54be_automation.svg" alt="logo"></Image>
           <Heading size={'md'}>Coding automation</Heading>
-          <Text fontSize={"18px"} >Our AI takes a first pass, automating what it can and flagging the remainder for your existing coding operations.</Text>
+          <Text color={"#6f8093"} fontSize={"18px"} >Our AI takes a first pass, automating what it can and flagging the remainder for your existing coding operations.</Text>
           </Stack>
         </GridItem>
         <GridItem w='100%'  >
         <Stack direction={"column"} spacing='24px'>
           <Image margin={"auto"} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e811cc7d802d608218cac51_full-service.svg" alt="logo"></Image>
           <Heading size={'md'} >Full-service coding</Heading>
-          <Text fontSize={"18px"}>AI combined with our human infrastructure to maximize speed, and accuracy while reducing costs.</Text></Stack></GridItem>
+          <Text color={"#6f8093"} fontSize={"18px"}>AI combined with our human infrastructure to maximize speed, and accuracy while reducing costs.</Text></Stack></GridItem>
         <GridItem w='100%'  >
         <Stack direction={"column"} spacing='24px'>
           <Image margin={"auto"} src="https://assets.website-files.com/5e6c01bb5212506d6c119069/5e811cc7dc544573caf55a0b_audit.svg" alt="logo"></Image>
           <Heading size={'md'} >Real-time audit</Heading>
-          <Text fontSize={"18px"}>Use Fathom to review the work of your coding team, editing errors and flagging problematic coding for review.</Text></Stack></GridItem>
+          <Text color={"#6f8093"} fontSize={"18px"}>Use Fathom to review the work of your coding team, editing errors and flagging problematic coding for review.</Text></Stack></GridItem>
        
       </Grid>
     </Container>
     <Button p={"7"} m={"60px"} fontSize={"15px"} style={{borderRadius:"30px"}} color={"#9a76d0"}>EXPLORE SERVICES</Button>
-    <Box >
+    <Box p={"80px"} bg={"#f3f5fb"}>
     <Container  maxWidth={"container.lg"}>
-        <Heading m={"60px"}>Fathom powers coding operations across</Heading>
+        <Heading m={"30px"}>Fathom powers coding operations across</Heading>
     <Grid templateColumns='repeat(3, 1fr)' gap={6}>
         
         <GridItem w='100%'  >
-        <Stack direction={"column"} spacing='24px'>
-          <Heading size={'4xl'}>4K+</Heading>
+        <Stack  direction={"column"} spacing='24px'>
+          <Heading color={" #6f8093"} size={'4xl'}>4K+</Heading>
           <Text fontSize={"18px"} >PROVIDER SITES</Text>
           </Stack>
         </GridItem>
         <GridItem w='100%'  >
         <Stack direction={"column"} spacing='24px'>
-          <Heading size={'4xl'} >60M+</Heading>
+          <Heading color={" #6f8093"} size={'4xl'} >60M+</Heading>
           <Text fontSize={"18px"}>PATIENTS</Text>
           </Stack></GridItem>
         <GridItem w='100%'  >
         <Stack direction={"column"} spacing='24px'>
-          <Heading size={'4xl'} >25K+</Heading>
+          <Heading color={" #6f8093"} size={'4xl'} >25K+</Heading>
           <Text fontSize={"18px"}>PROVIDERS</Text>
           </Stack></GridItem>
        
       </Grid>
     </Container>
     </Box>
-    <Text mt={"100px"}>BENEFITS</Text>
+    <Text color={"#6f8093"} mt={"100px"}>BENEFITS</Text>
     <Heading  m={"20px"}  size={"2xl"}>Cost, speed, and accuracy</Heading>
-    <Heading   size={"lg"}>No need to make trade-offs, choose all three</Heading>
+    <Heading color={"#6f8093"}  size={"lg"}>No need to make trade-offs, choose all three</Heading>
     <Container mt={"80px"}  maxWidth={"container.lg"}>
     <Grid  templateColumns='repeat(3, 1fr)' gap={12}>
         
@@ -108,7 +108,7 @@ export default function Home(){
     </Box>
     {/* <Heading  m={"20px"}  size={"2xl"}>Industry news and insights</Heading>
     <Heading  size={"lg"}>Stay up to date with the latest from the Fathom team</Heading> */}
-<Container maxWidth={"container.xl"}><HStack spacing={450}><Heading>Ready to get started?</Heading><ButtonGroup gap={10}><Button  p={"7"} fontSize={"15px"} style={{borderRadius:"30px"}}>SCHEDULE A CALL</Button><Button  p={"7"} fontSize={"15px"} style={{borderRadius:"30px"}}>REQUEST A QUOTE</Button></ButtonGroup></HStack></Container>
+<Container marginBottom={"80px"} maxWidth={"container.xl"}><HStack spacing={450}><Heading>Ready to get started?</Heading><ButtonGroup gap={10}><Button  p={"7"} fontSize={"15px"} style={{borderRadius:"30px"}}>SCHEDULE A CALL</Button><Button  p={"7"} fontSize={"15px"} style={{borderRadius:"30px"}}>REQUEST A QUOTE</Button></ButtonGroup></HStack></Container>
     
     
     </Box>
